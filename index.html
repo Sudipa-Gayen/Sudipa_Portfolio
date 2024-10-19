@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Sudipa Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Sudipa <span>Gayen</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skill">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#work">Work</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#skill">Skills</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="main1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Sudipa</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Hello there! I'm Sudipa Gayen, a budding web developer with a passion for crafting digital experiences. As a student on a journey to explore the vast world of web development, every line of code I write is a step toward turning ideas into reality.</p>
+                <div class="social-links">
+                    <a href="https://github.com/Sudipa-Gayen" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sudipa-gayen-64500923a/" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <a href="#contact"><button>Hire me</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about_page">
+        <section class="left_logo">
+            <img class="about_logo" src="main1.jpg" alt="">
+        </section>
+        <section class="right_about">
+            <div class="about-container" data-aos="fade-up" data-aos-duration="1500">
+                <h2>About Me</h2>
+                <p>Hello, I'm Sudipa Gayen, and I'm passionate about web development. I'm continuously learning and expanding my skill set in both front-end and back-end development. <br>
+                I'm a passionate full stack web developer with expertise in creating dynamic and responsive websites. On the frontend, I work with HTML, CSS, and JavaScript, utilizing React to craft seamless user experiences. In the middle layer, I handle data flow and application logic using Spring and Node.js. For the backend, I'm proficient in MongoDB and MySQL, building robust and scalable databases to power the web applications I develop. <br>
+                What excites me most about web development is the intersection of creativity and logic. The process of taking a design concept and breathing life into it with clean code is both an art and a science. I believe in the power of user-centered design, where the end-user's experience is at the heart of every decision I make. <br>
+
+                While I'm still a student, I'm eager to expand my knowledge and contribute to the ever-evolving web landscape. Learning from industry leaders, staying up-to-date with the latest trends, and experimenting with new technologies are all part of my journey toward becoming a proficient web developer. <br>
+                
+                When I'm not immersed in my coding endeavors,I like to read books also I have interest in sports like cricket. I believe that a well-rounded life adds depth to my creativity and fuels my drive to excel in my chosen field. <br>
+                
+                My ultimate goal is to contribute to open-source projects, build a portfolio of diverse web applications and other so many things. Each project I take on is a stepping stone toward achieving that goal.</p>
+            </div>
+            <div class="edu">
+                <h3 id="education-header">Education</h3>
+                <div class="edu_details" id="edu-details">
+                    <h4>2018</h4>
+                    <p>KasteKumari High School (H.S), WBBSE<br>
+                        84.24%
+                    </p>
+                    <h4>2020</h4>
+                    <p>Fatepur Srinath Institution, WBCHSE<br>
+                        Science <br>
+                        89%
+                    </p>
+                    <h4>2018</h4>
+                    <p>Maulana Abul Kalam Azad University of Technology (MAKAUT), WB<br>
+                        Bachelor of Technology (Computer Science & Engineering) <br>
+                        81.24% (6th Sem)
+                    </p>
+                </div>
+            </div>
+            
+        </section>
+    </section>
+    <div id="skill"></div>
+    <section  class="skill_page">
+        <h1>My Skills</h1>
+        <div class="skill_con">
+            <h3>Web Development:</h3>
+            <ul>
+                <li>HTML, CSS, JavaScript: Proficient in creating modern and visually appealing web interfaces with a strong focus on user experience.</li>
+                <li>Responsive Design: Skilled in designing layouts that seamlessly adapt to different screen sizes and devices.</li>
+                <li>Front-End Frameworks: Experience using React.js to build dynamic and interactive user interfaces.</li>
+            </ul>
+            
+            <h3>Back-End Development:</h3>
+            <ul>
+                <li>Java: Proficient in building robust server-side applications using Java, including RESTful APIs and data manipulation.</li>
+                <li>Spring Boot: Experienced in developing back-end applications using Spring Boot for building RESTful services.</li>
+                <li>MySQL: Proficient in using MySQL for relational database management and data manipulation.</li>
+                <li>MongoDB: Competent in designing and working with NoSQL databases, particularly MongoDB, for efficient data storage and retrieval.</li>
+            </ul>
+            
+            <h3>Pug Template Engine:</h3>
+            <ul>
+                <li>Pug (formerly Jade): Proficient in using the Pug template engine to create clean and efficient HTML templates, improving code maintainability.</li>
+            </ul>
+            
+            <h3>Database Management:</h3>
+            <ul>
+                <li>MongoDB: Experienced in designing database schemas, querying data, and performing CRUD operations using MongoDB's flexible document model.</li>
+                <li>MySQL: Proficient in using MySQL for relational database management and data manipulation.</li>
+            </ul>
+            
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>C (Intermediate)</li>
+                <li>Python (Intermediate)</li>
+                <li>Java (Intermediate)</li>
+                <li>JavaScript (Intermediate)</li>
+            </ul>
+            <h3>Machine Learning:</h3>
+            <ul>
+                <li>Experience with various machine learning algorithms and techniques for predictive modeling.</li>
+            </ul>
+            <h3>Version Control:</h3>
+            <ul>
+                <li>Git: Proficient in using Git for version control, collaborating with team members, and managing codebase changes.</li>
+            </ul>
+            
+            <h3>Tools</h3>
+            <ul>
+                <li>Integrated Development Environments (IDEs): Skilled with IntelliJ IDEA and Visual Studio Code,Google Colab for efficient coding, debugging, and project management.</li>
+                <li>Package Managers: Familiar with npm for managing JavaScript dependencies and libraries.</li>
+            </ul>
+            
+            <h3>Problem Solving:</h3>
+            <ul>
+                <li>Algorithmic Thinking: Skilled in solving problems using algorithmic approaches and implementing data structures.</li>
+                <li>Problem-Solving: Logical thinker who thrives on overcoming challenges and finding innovative solutions.</li>
+                <li>Solved 200+ DSA questions in <a href="https://leetcode.com/u/Sudipa_Gayen/">leetcode</a></li>
+            </ul>
+            <h3>Academic Projects:</h3>
+            <ul>
+                <li>Prediction of heart disease using Human Activity Recognition (HAR): Developed a machine learning model to predict heart disease based on activity data.</li>
+            </ul>
+            <h3>Personal Projects:</h3>
+            <ul>
+                <li>Developed a full-stack e-commerce platform using Java Spring Boot for the back end, React.js for the front end, and MongoDB for database management.</li>
+                <li>Created a RESTful API using Spring Boot to interact with a MongoDB database, allowing seamless data retrieval and updates.</li>
+                <li>Website Development :Designed and built a website using HTML, CSS, and JavaScript.</li>
+                <li>Simple Calculator: Developed a calculator application using HTML, CSS, and JavaScript.</li>
+                <li>Create a e-commerce website using react as frontend and spring as a backend</li>
+                <li>Clone of codeHelp using React</li>
+                <li>Chat Application: Created a chat application using JavaScript and Socket.IO.</li>
+                <li>Weather App : Developed a weather application using APIs, JavaScript, HTML, and CSS.</li>
+                <li>Myntra Clone: Built a clone of the Myntra website using Node.js, Express.js, and Pug.</li>
+
+            </ul>
+        </div>
+    </section>
+    <section id="work" class="my-work-page">
+        <div class="space"></div>
+        <h1>My Work</h1>
+        <div class="work-container">
+            <div class="work-item">
+                <img src="RegForm.png" alt="Website Development" />
+                <h3>Website Development</h3>
+                <p>Designed and built a website using HTML, CSS, and JavaScript,node.js,MongoDB</p>
+            </div>
+            <div class="work-item">
+                <img src="cal.png" alt="Simple Calculator" />
+                <h3>Simple Calculator</h3>
+                <p>Developed a calculator application using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="work-item">
+                <img src="chat.png" alt="Chat Application" />
+                <h3>Chat Application</h3>
+                <p>Created a chat application using JavaScript and Socket.IO.</p>
+            </div>
+        </div>
+        <div class="button-container">
+            
+            <button id="show-more" class="show-more-button">Show More</button>
+        </div>
+    
+        <div id="additional-work" class="additional-work">
+            <div class="pw">
+                <div class="work-item">
+                    <img src="clone.png" alt="E-commerce Website" />
+                    <h3>E-commerce Website</h3>
+                    <p>Created an e-commerce website using React for the frontend </p>
+                </div>
+                <div class="work-item">
+                    <img src="weather.png" alt="Weather App" />
+                    <h3>Weather App</h3>
+                    <p>Developed a weather application using APIs, JavaScript, HTML, and CSS.</p>
+                </div>
+                <div class="work-item">
+                    <img src="myntra.png" alt="Myntra Clone" />
+                    <h3>Myntra Clone</h3>
+                    <p>Built a clone of the Myntra website using Node.js, Express.js, and Pug.</p>
+                </div>
+            </div>
+            <div class="button-container">
+                <button id="show-less" class="show-less-button" style="display: none;">Show Less</button>
+            </div>
+        </div>
+
+    </section>
+    <div>
+    <section id="contact" class="contact_me">
+        <div class="left_contact">
+            <h1>Contact Me</h1>
+            <div class="con-me">
+                <p><i class="fa-solid fa-paper-plane"></i>sudipa.999gayen1@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7595825889</p>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://github.com/Sudipa-Gayen" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                <i class="fa-brands fa-github"></i>
+                </a>
+        
+                <a href="https://www.linkedin.com/in/sudipa-gayen-64500923a/" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
+                <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    
+        <div class="right_contact">
+            <div class="con-form">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" placeholder="Your Message" cols="30" rows="10"></textarea required>
+                    <button type="submit">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </section>
+</div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxb1-hGccDxt1eBjd6V7EO5ztUW79Db3KWJtIwuupYaed-v6cSzihxWWAnK7QwD_2XquA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML="Message sent Successfully!!!"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
